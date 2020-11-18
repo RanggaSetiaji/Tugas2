@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:background="#43BA90">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logonya"
+            android:contentDescription="TODO"></ImageView>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:contentDescription="wallpaper"
+        android:src="@drawable/waaall"></ImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:background="#444444"
+        android:gravity="center_vertical"
+        android:padding="10pt">
+
+
+        <LinearLayout
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="#444444"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Ahlan wa Sahlan"
+                android:textColor="#ffffff"
+                android:textSize="10pt"></TextView>
+
+            <TextView
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:text="Selamat datang di yayasan Qurrata 'Ayun"
+                android:textColor="#ffffff"
+                android:textSize="7pt"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnPeta"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="Pindahmaps"
+            android:src="@drawable/peta">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF2E43"
+            android:fontFamily="sans-serif-black"
+            android:onClick="Pindah"
+            android:text="About"
+            android:textColor="#ffffff"
+            android:textSize="7pt"
+
+            ></Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="7pt"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/btnEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/eemail"
+                android:onClick="email"
+                ></ImageView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="7pt"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/btnWa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/whatsapps"
+                android:onClick="whatsapps"
+                ></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="7pt"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/btnCall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hape"
+                android:onClick="panggil"
+                ></ImageView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"></TextView>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="WhatsApp"></TextView>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Phone"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
