@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:background="#43BA90"
+        android:id="@+id/linear1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logonya"
+            android:contentDescription="TODO"></ImageView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:contentDescription="wallpaper"
+        android:src="@drawable/waaall"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10pt">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yayasan Qurrata ‘Ayun
+adalah sebuah yayasan pendidikan islam yang beralamatkan di Jl. Seputih,Desa Bumisari Kecamatan Natar, Kabupaten Lampung Selatan.Saat ini ada 3 jalur pendidikan yang dapat ditempuh di yayasan ini diantaranya : \n"
+            android:textColor="#444444"
+            android:textSize="7pt"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Taman Pendidikan Al-Qur’an (TPA)\n
+- Madrasah Ibtidaiyah (MI)\n
+- Madratsah Tsanawiah (Mts)"
+            android:textColor="#444444"
+            android:textSize="7pt"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n yayasan ini sendiri telah berdiri sejak tahun 2005 dan terus berkembang serta berkomitmen untuk meningkatkan kualitas belajar mengajar."
+            android:textColor="#444444"
+            android:textSize="7pt"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
