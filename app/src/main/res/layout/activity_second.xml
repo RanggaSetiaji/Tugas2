@@ -56,7 +56,7 @@ adalah sebuah yayasan pendidikan islam yang beralamatkan di Jl. Seputih,Desa Bum
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="\n yayasan ini sendiri telah berdiri sejak tahun 2005 dan terus berkembang serta berkomitmen untuk meningkatkan kualitas belajar mengajar."
+            android:text="\n yayasan ini sendiri telah berdiri sejak tahun 2004 dan terus berkembang serta berkomitmen untuk meningkatkan kualitas belajar mengajar."
             android:textColor="#444444"
             android:textSize="7pt"></TextView>
 
